@@ -1,5 +1,5 @@
 # WayFinder
-## A way to draw relationships between ways in an Open Street Map XML file
+## A way to draw relationships between ways in an [Open Street Map](https://www.openstreetmap.org/) ``XML`` file
 
 - The above notebook finds relationships between ways in an Open Street Map ``xml`` file
 - Outputs to a file called ``waysData.json``
