@@ -4,6 +4,7 @@
 - The above notebook finds relationships between ways in an Open Street Map ``xml`` file
 - Outputs to a file called ``waysData.json``
 - the JS object in the above file has such a format: ``wayID: [list of wayIDs that connect to it]``
+  - the version on the CoLab link structures the data bit differently: ``wayID: [list of nodes: ways that connect to it]``
 
 To run the program:
 - open in Google CoLab
