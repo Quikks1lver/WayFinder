@@ -1,6 +1,9 @@
 # WayFinder
 ## A way to draw relationships between ways in an [Open Street Map](https://www.openstreetmap.org/) ``XML`` file
 
+## Why?
+- Finding how roads connect can, of course, be of great interest for mapping applications
+
 - The above notebook finds relationships between ways in an Open Street Map ``xml`` file
 - Outputs to a file called ``waysData.json``
 - the JS object in the above file has such a format: ``wayID: [list of wayIDs that connect to it]``
