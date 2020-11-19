@@ -14,7 +14,7 @@
 - The ``NodeXYExtractor`` notebook extracts a node's X/Y (lat/long) info
 
 ### How to Use
-To run the program:
+To run the program(s):
 - open in Google CoLab
 - run the cells, selecting an extracted XML file from [Open Street Map](https://www.openstreetmap.org/#map=19/28.60952/-81.21443)
 - Enjoy!
