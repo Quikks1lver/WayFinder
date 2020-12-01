@@ -3,7 +3,7 @@
 
 ### Why?
 - Finding how roads connect can, of course, be of great interest for mapping applications
-- These Jupyter notebooks can help with finding relationships between XML data
+- These Jupyter notebooks can help with finding relationships between ``XML`` data
 
 ### Structure
 
@@ -20,5 +20,5 @@
 ### How to Use
 To run the program(s):
 - open in Google CoLab
-- run the cells, selecting an extracted XML file from [Open Street Map](https://www.openstreetmap.org/#map=19/28.60952/-81.21443)
+- run the cells, selecting an extracted ``XML`` file from [Open Street Map](https://www.openstreetmap.org/#map=19/28.60952/-81.21443)
 - Enjoy!
