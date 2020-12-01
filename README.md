@@ -6,12 +6,15 @@
 - These Jupyter notebooks can help with finding relationships between XML data
 
 ### Structure
+
+#### ``WayFinder``
 - The ``WayFinder`` notebook finds relationships between ways in an Open Street Map ``xml`` file
-- Outputs to a file called ``waysData.json``
+- Outputs to a ``JSON`` file
 - the JS object in the above file has such a format: ``wayID: [list of wayIDs that connect to it]``
   - the version on the CoLab link structures the data bit differently: ``wayID: [list of nodes: ways that connect to it]``
-
-- The ``NodeXYExtractor`` notebook extracts a node's X/Y (lat/long) info
+#### ``NodeXYExtractor``
+- The ``NodeXYExtractor`` notebook extracts a node's X/Y (lat/long) info and connects it to ways
+- The format of output is as such: ``{nodeID: {"id": id, "longX": x_coord, "latY": y_coord, "waysInfo": [list of ways names]}}``
 
 ### How to Use
 To run the program(s):
