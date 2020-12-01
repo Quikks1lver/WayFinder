@@ -1,5 +1,5 @@
 # WayFinder
-### A way to draw relationships between ways and find node information in [Open Street Map](https://www.openstreetmap.org/) ``XML`` files
+### A way_(pun intended)_ to draw relationships between ``ways`` and find ``node`` information in [Open Street Map](https://www.openstreetmap.org/) ``XML`` files
 
 ### Why?
 - Finding how roads connect can, of course, be of great interest for mapping applications
