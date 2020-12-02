@@ -8,12 +8,12 @@
 ### Structure
 
 #### ``WayFinder``
-- The ``WayFinder`` notebook finds relationships between ways in an Open Street Map ``xml`` file
+- The ``WayFinder`` notebook finds relationships between ``ways`` in an Open Street Map ``XML`` file
 - the JS object in the above file has such a format: ``wayID: [list of wayIDs that connect to it]``
   - the version on the CoLab link structures the data bit differently: ``wayID: [list of nodes: ways that connect to it]``
 - Outputs to ``JSON`` file
 #### ``NodeXYExtractor``
-- The ``NodeXYExtractor`` notebook extracts a node's X/Y (lat/long) info and connects it to ways
+- The ``NodeXYExtractor`` notebook extracts a ``node's`` X/Y (lat/long) info and connects it to ``ways``
 - The format of output is as such: ``{nodeID: {"id": id, "longX": x_coord, "latY": y_coord, "waysInfo": [list of ways names]}}``
 - Outputs to ``JSON`` file
 
